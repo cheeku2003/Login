@@ -1,0 +1,641 @@
+display-flex,
+.display-flex,
+.display-flex-center,
+.signup-content,
+.signin-content,
+.social-login,
+.socials {
+  display: flex;
+  display: -webkit-flex;
+}
+list-type-ulli,
+.socials{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a:focus, 
+a:active{
+  text-decoration: none;
+outline: none;
+  transition: all 300ms ease 0s;
+  -moz-transition:  all 300ms ease 0s;
+  -webkit-transition: all 300ms ease 0s;
+
+  -ms-transition: all 300ms ease 0s;
+}
+@media only screen and (max-width:767px)
+{
+  .input_field 
+  {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .input_field:last-child {
+    margin-bottom: 0px;
+  }
+  .home_page .home-div h1 {
+    font-size:40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  .home_page .home-div h2{
+    font-weight: 500;
+    font-size: 25px;
+  }
+@media only screen and (max-width:575px) {
+  .contact_submit_button
+  {
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+  
+}
+.logo
+{
+  height: 30px;
+  width:80px;
+}
+
+.signup-content
+{
+  width:750px;
+  height: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 750px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 20px;
+}
+.signup-form
+{
+  margin-left: 50px; 
+}
+.form-title
+{
+  font-size: 25px;
+  font-weight: 100px;
+}
+.signup-image
+{
+ 
+margin-left: 60px;
+margin-top: 30px;
+}
+.signup-image-link
+{
+  margin-left: 60px;
+  text-decoration: none;
+  color: black;
+ font-weight: 30px;
+ text-align: center;
+ 
+}
+.form-group 
+{
+  border-bottom: 2px solid black ;
+  width: 300px;
+}
+#name
+{
+  border: 0px;
+  margin-left: 10px; 
+}
+#email
+{
+  border: 0px;
+  margin-left: 10px; 
+}
+#phone
+{
+  border: 0px;
+  margin-left: 10px;  
+}
+#work
+{
+  border: 0px;
+  margin-left: 10px; 
+}
+#password
+{
+  border: 0px;
+  margin-left: 10px; 
+}
+#cpassword
+{
+  border: 0px;
+  margin-left: 10px; 
+}
+.form-group input
+{
+  outline: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-button
+{
+  border-bottom: 0px;
+}
+.form-submit
+{
+  color:white;
+}
+.image 
+{
+   height:280px; 
+}
+.signin-content
+{
+  
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 750px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 20px;
+}
+.dp 
+{
+  height: 200px;
+  width: 200px;
+}
+.home-page 
+{
+  background-image: linear-gradient(
+    to left,
+    white 0%,
+    white 50%,
+    rgb(221, 221, 238) 50%,
+    rgb(221, 221, 238) 100%
+  );
+  height: 100vh;
+}
+.heading 
+{
+  color:blue;
+  font-weight: bold;
+}
+.wel
+{
+  font-size: 40px;
+  font-weight: bold;
+}
+.home-div 
+{
+  text-align: center;
+  padding: 200px;
+}
+.contact_info_item
+{
+  font-size: 13px; 
+}
+
+ .icon 
+ {
+  height: 30px;
+  margin-right: 10px;
+ }
+ .icone 
+ { 
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+ }
+ .icona
+ { 
+  
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+ }
+ .class_info_title
+ {
+  font-weight: bold;
+ }
+ .class_info_text
+ {
+  color:rgb(132, 129, 129);
+ }
+.contact_form
+  {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    
+  }
+  .contact_form_title
+  {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  .text_field 
+  {
+    width: 90%;
+    height: 150px;
+    outline: none !important;
+  }
+  .contact_form_email
+  {
+    
+    margin-right: 30px;
+    padding-left: 20px;
+  }
+  .contact_form_number
+  {
+    
+    margin-right: 70px;
+    padding-left: 20px;
+  }
+.contact_submit_button
+{
+  
+  color: white;
+}
+.contact_form_message 
+{
+  
+  padding-left: 20px;
+}
+.contact_info_item 
+{
+  width: 380px;
+  height: 60px;
+ 
+}
+.contact_form_email
+{
+  margin-left: 30px;
+  outline: none !important;
+}
+.input_field 
+{
+  outline: none !important;
+}
+#notfound 
+{
+  position: relative;
+  height: 100vh;
+}
+#notfound .notfound 
+{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50% ,-50%);
+  
+}
+.notfound 
+{
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding-left: 15px;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 300px;
+} 
+.notfound .notfound-404 
+{
+  position: absolute;
+  height: 100px;
+  top:0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50% );
+  z-index: -1;
+  
+}
+.notfound .notfound-404 h1 
+{
+  font-family: "Maven Pro", sans-serif;
+  color: #ececec;
+  font-weight: 900;
+  font-size: 276px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50% ,-50%);
+  margin-top: 300px;
+}
+.notfound h2 
+{
+  font-family: "Maven Pro", sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0px;
+ display: flex;
+ margin-left: 300px;
+}
+.notfound p 
+{
+  font-family: "Maven Pro", sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 15px;
+} 
+.notfound a 
+{
+  font-family: "Maven Pro", sans-serif; 
+  font-size: 14px ;
+  text-decoration: none ;
+  text-transform: uppercase;
+  background: #189cf0;
+  display: inline-block;
+  padding: 16px 38px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.notfound a:hover 
+{
+  background-color: #fff;
+  border-color: #189cf0;
+  color: #189cf0;
+}
+@media only  screen and  (max-width: 480px)
+{
+  .notfound .notfound-404 h1 
+  {
+    font-size: 162px;
+  }
+.notfound h2 
+{
+  font-size: 20px;
+ margin-left: 100px !important;
+
+}
+.notfound
+{
+  margin-left: 0px;
+  font-size: 20px !important;
+}
+
+}
+.contact_form_container 
+{
+  margin:  0 auto ;
+  width: 800px ;
+  height: 500px;
+}  
+.profile-work a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.input_field 
+{
+  width: 50%;
+}
+@media only  screen and  (max-width: 480px)
+{
+ .home-page 
+ {
+  height: 300px;
+ }
+ .home-div 
+ {
+  padding: 50px ;
+ } 
+ .wel
+ {
+font-size: 20px;
+ }
+ .signup-content 
+ {
+  width: 90%;
+  height: 800px;
+  float: none;
+ }
+ .form-group 
+ {
+  width: 200px;
+  display: flex;
+ }
+ .img 
+ {
+  margin-left: 0 !important;
+  width: 100px;
+  float: none; 
+ }
+ .signup-form 
+ {
+  margin-left: 0px;
+ }
+ 
+}
+/* Mobile devices */
+@media (max-width: 767px) {
+  .signup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .signup-image {
+    margin-top: 20px;
+  }
+
+  .signup-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .signup-image-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+}
+
+/* Tablets and small desktop screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .signup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup-form {
+    margin-right: 20px;
+  }
+
+  .signup-image {
+    margin-left: 20px;
+  }
+
+  .signup-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .signup-image-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+/* Large desktop screens and above */
+@media (min-width: 992px) {
+  .signup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup-form {
+    margin-right: 50px;
+  }
+
+  .signup-image {
+    margin-left: 50px;
+  }
+
+  .signup-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .signup-image-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+}
+
+@media only  screen and  (max-width: 480px)
+{
+  .emp
+  {
+    width: 300px;
+    height: 1100px !important;
+  }
+  .dp
+  {
+   margin-left: 20px;
+  }
+  .profile-head
+  {
+    margin-left: 40px;
+  }
+.profile-edit-btn 
+{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.profile-work 
+{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.tab-content
+{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.profile-head h6 
+{
+  color: rgb(40, 40, 205);
+}
+.profile-head h5
+{
+  margin-top: 20px;
+}
+.contact_info
+{
+  width: 50px;
+  height: 50px;
+}
+.contact_form 
+{
+ width: 300px;
+}
+.contact_form_name
+{
+  width: 150px;
+}
+.contact_form_email
+{
+  width: 150px;
+ 
+}
+.contact_form_number
+{
+  width: 150px;
+  margin-left: 70px;
+}
+.contact_form_name
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_form_container
+{
+  margin-top: 200px;
+  height: 600px;
+}
+.contact
+{
+  display: flex;
+  flex-direction: column;
+}
+.contact_info_item
+{
+  margin-top: 20px;
+  width: 300px;
+}
+.signin-content
+{
+  display: flex;
+  flex-direction: column;
+}
+.imag 
+{ 
+  width: 50px;
+  height: 200px;
+  margin-right: 100px;
+}
+.signin-content
+{
+  width: 350px;
+  height: 600px;
+}
+.signup-image
+{
+  margin-right: 100px;
+}
+.signup-image-link
+{
+  font-size: 10px;
+  display: flex;
+}
+}

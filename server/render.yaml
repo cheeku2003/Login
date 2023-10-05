@@ -1,0 +1,15 @@
+# render.yaml
+
+# For the client (React frontend)
+- name: Client
+  buildCommand: cd client && npm install && npm run build
+  env:
+    - key: NODE_ENV
+      value: production
+
+# For the server (Node.js backend)
+- name: Server
+  buildCommand: npm install && npm run build
+  env:
+    - key: NODE_ENV
+      value: production
